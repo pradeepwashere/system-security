@@ -20,7 +20,7 @@ def CreateSequence1():
     fromHashed = hashlib.sha1(toHash)					# Use the digest obtained as the seed
     random.seed(fromHashed.hexdigest())					
     a = random.getrandbits(32217)						# Required Length of Message
-    sequence1 = bin(a)[2:]
+
     print sequence1
     # print hello
 
