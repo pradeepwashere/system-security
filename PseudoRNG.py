@@ -22,7 +22,7 @@ def CreateSequence1():
     a = random.getrandbits(32217)						# Required Length of Message
     sequence1 = bin(a)[2:]
     print sequence1
-    # print hello
+    print hello
 
 
 def GetInputSeed():
